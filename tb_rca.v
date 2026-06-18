@@ -18,6 +18,8 @@ rca_4bit DUT(
 );
 
 initial begin
+    $dumpfile("rca_wave.vcd");
+    $dumpvars(0, tb_rca);
     $monitor("A=%b B=%b Cin=%b Sum=%b Cout=%b",
           A,B,Cin,Sum,Cout);
           
