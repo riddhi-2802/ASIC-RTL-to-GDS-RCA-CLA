@@ -1,5 +1,12 @@
 # ASIC RTL-to-GDS Implementation and Comparative Analysis of 4-bit Ripple Carry Adder (RCA) and Carry Lookahead Adder (CLA)
 
+
+![Verilog](https://img.shields.io/badge/Language-Verilog-blue)
+![OpenLane](https://img.shields.io/badge/Flow-OpenLane-green)
+![Sky130](https://img.shields.io/badge/PDK-Sky130-orange)
+![ASIC](https://img.shields.io/badge/Project-ASIC-red)
+
+## 📖 Project Overview
 ## 📖 Project Overview
 
 This project demonstrates the complete ASIC design flow by implementing and comparing two widely used digital adder architectures: a **4-bit Ripple Carry Adder (RCA)** and a **4-bit Carry Lookahead Adder (CLA)**.
