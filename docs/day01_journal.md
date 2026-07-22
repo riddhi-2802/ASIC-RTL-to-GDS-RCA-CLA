@@ -297,3 +297,12 @@ Set up a complete OpenLane physical design environment and prepare the 4-bit Rip
 3. Complete synthesis.
 4. Generate first floorplan.
 5. Analyze floorplanning reports and outputs.
+Completed full RTL-to-GDS flow for 4-bit RCA.
+Resolved OpenLane PDK version mismatch.
+Resolved PDN generation issue by increasing die area and reducing utilization.
+Successfully completed synthesis, floorplanning, placement, routing, STA, DRC, LVS and GDS generation.
+
+Implemented and corrected true 4-bit Carry Lookahead Adder (CLA).
+Verified functionality through simulation.
+Successfully completed full RTL-to-GDS flow for CLA.
+Generated final GDS for both RCA and CLA using Sky130 PDK and OpenLane. 
